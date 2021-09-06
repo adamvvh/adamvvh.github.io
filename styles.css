@@ -1,0 +1,53 @@
+ul.horizontal {
+  padding: 0;
+}
+ul.horizontal li {
+  display: inline;
+}
+.message-container {
+  display: None;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background-color: rgba(0,0,0,0.8);
+}
+.message-box {
+  background-color: #cddc39;
+  padding: 1rem;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 3rem;
+}
+.wrapped {
+  flex-wrap: wrap;
+}
+.big {
+  width: 45vw;
+  height: 18rem;
+}
+.bucket-title {
+  font-size: 1.2rem;
+}
+.little {
+  width: 100px;
+  height: 100px;
+  margin: 0.5rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.little span {
+  width: 100%;
+}
+.big .little {
+  width: 45vw;
+  height: 4rem;
+  margin: 0;
+}
