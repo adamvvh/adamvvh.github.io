@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <form>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required><br>
+      <fieldset>
+        <legend>Which dates can you come?</legend>
+        <input type="checkbox" id="slot1" name="20220319T10" value="20220319T10">
+        <label for="slot1">19 March at 10:00</label><br>
+        <input type="checkbox" id="slot2" name="20220320T10" value="20220320T10">
+        <label for="slot2">20 March at 10:00</label><br>
+        <input type="checkbox" id="slot3" name="20220321T10" value="20220321T10">
+        <label for="slot3">21 March at 10:00</label><br>
+      </fieldset>
+      <input type="button" id="birthdayButton" value="Submit"/>
+      <p id="error" style="color: red;"></p>
+      <p id="success" style="color: green;"></p>
+    </form>
+    <script src="dist/bundle.js"></script>
+  </body>
+</html>

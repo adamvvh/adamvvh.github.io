@@ -1,6 +1,27 @@
 BUCKET_ROW_HEIGHT = 4;
 
 const SORT_GAMES = {
+  another: {
+    title: "aa",
+    description: "sssss",
+    buckets: [
+      {
+        name: "one",
+        items: [
+          'sahkdsakdsa',
+          'slksjl'
+        ]
+      },
+      {
+        name: "two",
+        items: [
+          'sksjl',
+          'ssss',
+          'skljsl'
+        ]
+      }
+    ]
+  },
   animalsEat: {
     title: 'Animal diets',
     description: 'Classify animals based on eating behaviour',
